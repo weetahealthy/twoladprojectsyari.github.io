@@ -1,0 +1,209 @@
+.white{
+    background-color: white;
+    color: black;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+.child-header{
+    height: 350px;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: deepskyblue;
+    
+}
+.center{
+    text-align:center;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+p{
+    text-align: justify;
+}
+
+ .tinggi2{
+    margin-left: -42px;
+    margin-right: 60px;
+}
+
+ 
+
+.carousel-inner{
+    height: 350px
+}
+
+
+.menu{
+    background-color: black;
+    color: white;
+    height: 35px;
+}
+
+*{
+    padding: 0px;
+  margin: 0px;
+}
+
+/* MENU RATA TENGAH*/
+.menu{
+   height: 46px;
+  text-align: center;
+  background-color: white;
+}
+li .menuk {
+/*
+    text-align: center;
+    list-style-type: none;
+    float: left;
+    width: 100px;
+    height: 30px;
+    padding: 20px;
+    background: white;
+    cursor: pointer;
+    line-height: 30px;
+*/
+}
+.menuk ul {
+    display: inline-block; 
+  list-style: none;
+}
+.menuk ul li {
+    text-align: center;
+  float: left;
+}
+.menuk ul li a{
+    display:block;
+  color: black;
+  text-decoration: none;
+  padding: 5px 20px;
+  line-height: 26px
+}
+.menuk ul li a:hover{
+    background-color: gold;
+  color: whitesmoke;
+}
+
+.child-content{
+    height: 350px;
+}
+
+.child-footer1{
+    height: inherit;
+}
+
+.child-footer2{
+    height: 180px;
+}
+
+.footer-menu ul {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.footer-menu ul li{
+    list-style: none;
+    
+}
+
+.footer-menu ul li a {
+    width: 50px;
+    height: 50px;
+    background: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 45px;
+    margin: 0 15px;
+    display: block;
+    border-radius: 30%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1
+        
+}
+
+.footer-menu ul li a .fa {
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+}
+
+.footer-menu ul li a:hover .fa{
+    color: #fff;
+    transform: rotateY(360deg)
+}
+
+.footer-menu ul li a:before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+}
+
+.footer-menu ul li a:hover:before{
+    top: 0;
+}
+
+ul li:nth-child(1) a:before{
+    background: #3b5999;
+}
+
+ul li:nth-child(2) a:before{
+    background: #e4405f;
+}
+
+ul li:nth-child(3) a:before{
+    background: #f46f30;
+}
+
+button{
+    background-color: black;
+    width: 50px;
+    
+}
+
+.style-navbar{
+    background-color: white;
+        background-color: white;
+    border-color: white;
+    color: black;
+}
+
+.style-navbar li a{
+    color: black;
+     font-family: arial;
+}
+.dropdown-menu > li > a:hover {
+    background-color: red;
+    background-image: none;
+}
+.margin-navbar{
+    margin-left: 30%;
+}
